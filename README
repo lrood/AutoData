@@ -1,0 +1,7 @@
+I wrote this program using Python 3.4  This program should be used with an ELM327 interface that communicates at 38400 baud.
+This program will display some sensor data from most cars 1996 to present.  The program needs tkinter and pyserial.  Most of the work
+was in the translation of the data from hexidecimal to a readable format.  The data is taken from the buffer and converted to 
+decimal form and then it must be run through a formula to make the data useful.
+
+The data will then be displayed.  The data will be further formatted when it is displayed.
+The windows version uses an automatic port detection.
